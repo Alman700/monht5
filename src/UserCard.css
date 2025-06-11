@@ -1,0 +1,37 @@
+.user-card {
+  background-color: white;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 220px;
+  transition: transform 0.2s ease;
+}
+
+.user-card:hover {
+  transform: translateY(-4px);
+}
+
+.user-card h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.status {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 4px 8px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 6px;
+  font-size: 0.9em;
+}
+.avatar {
+  width: 100%;
+  max-width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 12px auto;
+  box-shadow: 0 0 0 3px #4caf50;
+}
